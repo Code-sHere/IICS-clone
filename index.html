@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IICS Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero-section">
+    <nav class="navbar">
+      <div class="logo"><img src="Logo.svg" alt="logo"></div>
+
+        <label id="hamburger" class="hamburger">
+          <input type="checkbox" />
+          <svg viewBox="0 0 32 32">
+            <path
+              class="line line-top-bottom"
+              d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+            ></path>
+            <path class="line" d="M7 16 27 16"></path>
+          </svg>
+        </label>
+
+      <!-- </button> -->
+
+      <!-- Nav Links -->
+      <div class="nav-links" id="nav-menu">
+        <a href="#" class="active">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Courses</a>
+        <a href="#">Payments</a>
+        <a href="#">Gallery</a>
+        <a href="#">Franchise</a>
+        <a href="#">Branches</a>
+        <a href="#">Contact Us</a>
+
+        <!-- Extra details -->
+        <div class="some-details">
+          <span>+91 9540299944</span>
+          <span>+91 9355930930</span>
+          <span>iicscomputereducation@gmail.com</span>
+          <h4>Follow</h4>
+          <div class="icons">
+            <i class="fa-brands fa-x"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="section1">
+    <div class="description">
+      <h1>Software Engineering</h1>
+      <p>
+        Learn Software Engineering with programming, algorithms, system design,
+        database, debugging and software Project management skills.
+      </p>
+      <button class="btn-wave">
+        <div class="wave-fill"></div>
+        <span>Enroll Now</span>
+      </button>
+
+      <button class="btn-wave">
+        <div class="wave-fill"></div>
+        <span>Read More</span>
+      </button>
+
+    </div>
+    <div class="slider" id="slide">
+        <button class="arrow left" id="prev-btn"> &lt; </button>
+        <button class="arrow right" id="next-btn"> &gt; </button>
+        <div class="cards" id="cards">
+        <img src="https://i.pinimg.com/736x/3d/72/98/3d7298d86eca5f461c969581c1a9af31.jpg" class="active" alt="">
+        <img src="https://www.shutterstock.com/image-vector/vector-illustration-concept-seo-creative-600w-1160578477.jpg" alt="">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.n-_Mk9Q3qGJFyjurQYc9BwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+        <img src="https://th.bing.com/th/id/OIP.edJplm6KkHx14Cxag70wIgHaEv?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+        <img src="https://th.bing.com/th/id/R.cd6c61e591f72abf89f741ca82fc61b4?rik=huie0VPL%2fgNqew&riu=http%3a%2f%2fwww.globalgeeknews.com%2fwp-content%2fuploads%2f2011%2f12%2fThe-Life-of-a-Software-Engineer-1024x779.png&ehk=jmDxQw4ix9prBOf0zI87815h8ynHedqVZcfWGFIiKIE%3d&risl=&pid=ImgRaw&r=0" alt="">
+    </div>
+    </div>
+  </section>
+  <section class="section2">
+    <div class="Courses">
+      <span>Popular Courses</span>
+    </div>
+    <div class="container">
+      <div class="slides">
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Artificial-Intelligence-and-Machine-Learning.webp" alt=""></div>
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Cybersecurity.webp" alt=""></div>
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Cloud-Computing.webp" alt=""></div>
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Data-Science-and-Big-Data-Analytics.webp" alt=""></div>
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Full-Stack-Web-Development.webp" alt=""></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="Courses">
+        <span>Advance Courses</span>
+      </div>
+      <div class="slides">
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/DevOps-1024x577.webp" alt=""></div>
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Blockchain-Development-1024x743.webp" alt=""></div>
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Mobile-App-Development.webp" alt=""></div>
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Digital-Marketing-1024x641.webp" alt=""></div>
+        <div class="image"><img src="https://livewiresoftwarecourses.com/wp-content/uploads/2023/11/Product-Management-1024x555.webp" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <section class="section3">
+    <div class="text-box">
+      <div class="quote left">“</div>
+        <p id="scramble-text">
+          IICS empowers students with industry-relevant IT and computer skills 
+          through certified courses in software, hardware, multimedia, 
+          digital marketing, and more. With expert faculty, practical training, 
+          and placement support, we prepare future-ready professionals to thrive 
+          in today’s digital world. Learn, grow, and succeed with IICS.
+        </p>
+      <div class="quote right">”</div>
+    </div>
+  </section>
+  <section class="section4">
+    <div class="branches">
+      <h1>Branches In Delhi</h1>
+      <div class="branches-list">
+        <ul class="role">
+          <li>GTB NAGAR</li>
+          <li>PITAMPURA</li>
+          <li>YAMUNA VIHAR</li>
+          <li>DARYAGANJ</li>
+          <li>NAAGLOI</li>
+          <li>NIRMAN VIHAR</li>
+          <li>LAJPAT NAGAR</li>
+          <li>BADARPUR</li>
+          <li>DEOLI KHANPUR</li>
+          <li>SUBHASH NAGAR</li>
+        </ul>
+        <ul class="role">
+          <li>GTB NAGAR</li>
+          <li>PITAMPURA</li>
+          <li>YAMUNA VIHAR</li>
+          <li>DARYAGANJ</li>
+          <li>NAAGLOI</li>
+          <li>NIRMAN VIHAR</li>
+          <li>LAJPAT NAGAR</li>
+          <li>BADARPUR</li>
+          <li>DEOLI KHANPUR</li>
+          <li>SUBHASH NAGAR</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <script>
+    
+  </script>
+  <section class="section5">
+    <div class="awards">
+      <h1>Achivements</h1>
+      <div class="main-image">
+        <img src="WhatsApp-Image-2024-12-02-at-12.12.43-PM 1.png" alt="">
+        <div class="main-text">
+          <span>IICS Computer Education Receives “Most Trusted Brand” Award from Arjun Kapoor. IICS Computer Education has added another feather to its cap by being honored with the prestigious “Most Trusted Brand” award. The award was presented by Bollywood star Arjun Kapoor at a glittering ceremony attended by industry leaders, educators, and technology enthusiasts.
+            This recognition reflects the institution’s unwavering commitment to delivering quality computer education and empowering students with the skills needed to thrive in a digital world. Over the years, IICS has built a reputation for excellence through its innovative teaching methods, state-of-the-art infrastructure, and a dedicated focus on student success</span>
+        </div>
+      </div>
+      <div class="sub-image">
+        <div class="img">
+          <img src="iics-india-award1 1.png" alt="">
+          <h4>Awarded As Best Placement Institute in North India</h4>
+          <span>
+            Receiving award for Best Placement Institute in North India from honourable HRD minister of state Dr. Ram Shankar Katheria.
+          </span>
+        </div>
+        <div class="img">
+          <img src="iics-india-award 2.png" alt="">
+          <h4>Awarded As Best Placement Institute in North India</h4>
+          <span>
+            Receiving award for Best Placement Institute in North India from honourable HRD minister of state Dr. Ram Shankar Katheria.
+          </span>
+        </div>
+        <div class="img"><img src="cf402925-74f0-4445-8b0d-5edc2eb138a2 1.png" alt="">
+          <h4>Awarded As Best Placement Institute in North India</h4>
+          <span>
+            Receiving award for Best Placement Institute in North India from honourable HRD minister of state Dr. Ram Shankar Katheria.
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section6">
+    <div class="events">
+      <h1>Events</h1>
+    </div>
+    <div class="event-background">
+      <button>Student Seminars</button>
+      <button>Monthly Quiz's</button>
+      <button>Fitness Activities</button>
+    </div>
+  </section>
+  <section class="section7">
+    <h1>Reviews</h1>
+    <div class="testimonials">
+      <div class="testimonial-card"><img src="Image.png" alt="">
+        <div class="name">
+          <strong>Payal</strong><br>
+          <span>MDCE</span>
+        </div>
+        <p>"IIcs Computer Eduction Provides Outstanding Tranining. Professional instructors, And Practical Experience. A Great Platform For Anyone Looking To Excel in Computer Education</p>
+      </div>
+      <div class="testimonial-card"><img src="Image.png" alt="">
+        <div class="name">
+          <strong>Payal</strong><br>
+          <span>MDCE</span>
+        </div>
+        <p>"IIcs Computer Eduction Provides Outstanding Tranining. Professional instructors, And Practical Experience. A Great Platform For Anyone Looking To Excel in Computer Education</p>
+      </div>
+      <div class="testimonial-card"><img src="Image.png" alt="">
+        <div class="name">
+          <strong>Payal</strong><br>
+          <span>MDCE</span>
+        </div>
+        <p>"IIcs Computer Eduction Provides Outstanding Tranining. Professional instructors, And Practical Experience. A Great Platform For Anyone Looking To Excel in Computer Education</p>
+      </div>
+    </div>
+  </section>
+  <section class="section8">
+    <h1>Frequently Asked Questions</h1>
+    <div class="question-box">
+        <div class="questions"><span>Is IICS Computer Education Is NIELIT Accredited ?</span></div>
+        <div class="questions"><span>Is IICS Computer Eduction Is NSDC Partner Institute ?</span></div>
+        <div class="questions"><span>Is IICS Computer Education Is Tally Partner Institute ?</span></div>
+        <div class="questions"><span>Is IICS Computer Education Is ISO Registered ? </span></div>
+        <div class="questions"><span>NIELIT O Level, A Level And CCC Accreditation Numbers ?</span></div>
+    </div>
+  </section>
+  <section class="section9">
+    <h1>Hava a Question ?</h1>
+    <div class="details">
+      <input type="text" placeholder="Name"><br>
+      <input type="mobile no" placeholder="Phone number"><br>
+      <input type="mail" placeholder="Email"><br>
+      <input type="address" placeholder="Location"><br>
+    </div>
+    <div class="query-box">
+      <input type="text" placeholder="Type of query ">
+    </div>
+    <button id="submit">submit</button>
+  </section>
+  <section class="section10">
+    <div class="footer-list">
+      <div class="detail">
+        <h4>Advance Courses</h4>
+        <ul>
+          <li>NIELIT Training</li>
+          <li>Power BI</li>
+          <li>Python Training</li>
+          <li>Magento Training</li>
+          <li>SQL Server certification</li>
+        </ul>
+      </div>
+      <div class="detail">
+        <h4>Corporate Courses</h4>
+        <ul>
+          <li>Joomla Training</li>
+          <li>WordPress Training</li>
+          <li>PHP Training</li>
+          <li>Java Training</li>
+        </ul>
+      </div>
+      <div class="detail">
+        <h4>Contact Details</h4>
+        <ul>
+          <li>E-360, Second Floor, Nirman Vihar,
+            Main Vikas Marg, Near Metro Station
+            Gate No.-03 delhi-110092
+          </li>
+          <li>iicscomputereducation@gmail.com</li>
+          <li>+91-9540299944</li>
+        </ul>
+      </div>
+      <div class="footer-logo">
+        <img src="Logo.svg" alt="">
+        <div class="downloade-button">
+          <button>App Store</button>
+          <button>Google Playstore</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <span>Copyright © 2018 IICS. All right reserved Design by IICS India</span>
+  </footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.jsye apni js se Pehle lagaiyo yaad se"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrambleTextPlugin.min.js"></script>
+
+<script>
+const scroll = document.querySelector(".section3");
+      const scrambleText = document.querySelector('#scramble-text');
+
+      let animationTrigger = false;
+      function runAnimation(){
+        if(!animationTrigger){
+          animationTrigger = true;
+          gsap.to(scrambleText, {
+            duration: 5,
+            scrambleText: {
+              text: "IICS empowers students with industry-relevant IT and computer skills through certified courses in software, hardware, multimedia, digital marketing, and more. With expert faculty, practical training, and placement support, we prepare future-ready professionals to thrive in today’s digital world. Learn, grow, and succeed with IICS. 🚀",
+              chars: "XO", // Customize characters used in scrambling
+              revealDelay: 0.2,
+              speed: 0.7,
+              newClass: "highlighted-text"
+            },
+            delay:0 // Optional: delay before starting the animation
+          });
+        }
+      }
+      scroll.addEventListener("mouseenter", runAnimation);
+
+      const view = new IntersectionObserver((enter) =>{
+        enter.forEach(entry =>{
+          if(entry.isIntersecting){
+            runAnimation();
+          }
+        });
+      }, {threshold: 0.5});
+
+      view.observe(scroll);
+
+      //////////////////////////////////////////
+
+  const roles = document.querySelectorAll('.role');
+    roles.forEach(role=>{
+      const tween =gsap.to(role,{
+        x: "-100%",
+        duration: 30,
+        ease: 'linear',
+        repeat: -1
+      }); 
+
+        role.addEventListener("mouseenter", () => tween.pause());
+        role.addEventListener("mouseleave", () => tween.play());
+
+    });
+//////////////////////////////////////
+const mainText = document.querySelector('.main-text');
+
+const mainTextObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      // Slide in from right with fade
+      gsap.to(mainText, {
+        duration: 1.2,
+        opacity: 1,
+        x: 0,          // slide to original position
+        ease: "power3.out"
+      });
+
+      // Stop observing after animation
+      mainTextObserver.unobserve(mainText);
+    }
+  });
+}, { threshold: 0.3 });
+
+mainTextObserver.observe(mainText);
+
+///////////////////////////////////////
+// Select all buttons
+const buttons = document.querySelectorAll('.btn-primary, .btn-secondary');
+
+buttons.forEach(btn => {
+  // Mouse enters
+  btn.addEventListener('mouseenter', () => {
+    gsap.to(btn, {
+      scale: 1.1,       // slightly enlarge
+      backgroundColor: "#0ea5e9", // change background (optional)
+      color: "#fff",    // change text color
+      duration: 0.3,
+      ease: "power1.out"
+    });
+  });
+
+  // Mouse leaves
+  btn.addEventListener('mouseleave', () => {
+    gsap.to(btn, {
+      scale: 1,          // reset scale
+      backgroundColor: btn.classList.contains('btn-primary') ? "#1e3a8a" : "transparent", // reset background
+      color: btn.classList.contains('btn-primary') ? "#fff" : "#fff", // reset text color
+      duration: 0.3,
+      ease: "power1.out"
+    });
+  });
+});
+/////////////////////////////////
+const button = document.querySelectorAll('.btn-wave');
+
+button.forEach(btn => {
+  const fill = btn.querySelector('.wave-fill');
+  const text = btn.querySelector('span');
+
+  btn.addEventListener('mouseenter', () => {
+    gsap.to(fill, {
+      duration: 0.6,
+      clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)", // full coverage
+      ease: "power2.out"
+    });
+    gsap.to(text, { color: "#fff", duration: 0.6 });
+  });
+
+  btn.addEventListener('mouseleave', () => {
+    gsap.to(fill, {
+      duration: 0.6,
+      clipPath: "polygon(0 0, 0 0, 0 100%, 0 100%)", // hide fill
+      ease: "power2.in"
+    });
+    gsap.to(text, { color: "#1e3a8a", duration: 0.6 });
+  });
+});
+
+btn.addEventListener('mouseenter', () => {
+  gsap.to(fill, {
+    duration: 0.8,
+    keyframes: [
+      { clipPath: "polygon(0 0, 100% 0, 100% 90%, 0 100%)" },
+      { clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)" }
+    ],
+    ease: "power2.out"
+  });
+  gsap.to(text, { color: "#fff", duration: 0.8 });
+});
+
+
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
